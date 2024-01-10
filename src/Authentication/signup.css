@@ -1,0 +1,25 @@
+
+#company_name {
+    /* margin: 32px 32px 32px 65px; */
+  }
+
+#phoneInput {
+    margin: 0px 0px 0px -28px;
+}
+
+.PhoneInputCountryIcon{
+    margin: 2px !important;
+}
+
+.PhoneInputInput {
+    margin-left: -5px;
+    width: 210px !important;
+    border: 1px solid #6c6969;
+    border-radius: 5px;
+    width: 250px;
+    text-align: center;
+}
+
+.PhoneInputCountrySelectArrow {
+    margin: 5px !important;
+}

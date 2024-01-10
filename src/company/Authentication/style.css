@@ -1,0 +1,60 @@
+.login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login input {
+  width: 400px;
+  height: 35px;
+  padding: 15px;
+  margin-bottom: 20px;
+  border: 1px solid #6c6969;
+  border-radius: 5px;
+}
+.login-btn {
+  align-self: center;
+  width: 35%;
+  border-radius: 5px;
+  background-color: blue;
+  color: white;
+  border: none;
+}
+
+.switch-signup {
+  align-self: center;
+  margin-top: 10px;
+}
+
+/* Sign Up */
+
+.signupfrom {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 80%;
+}
+
+.signupfrom div {
+  margin: 12px;
+}
+
+.signUp-btn {
+  width: 25%;
+  padding: 0px 10px 0px 10px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  background-color: blue;
+}
+
+.signUp-btn span {
+  text-align: center;
+}
+
+.name-company > input {
+  border: 1px solid #6c6969;
+  border-radius: 5px;
+  width: 250px;
+  padding: 0.2rem 0.75rem 0.2rem 0.75rem;
+}

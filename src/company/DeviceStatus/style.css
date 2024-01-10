@@ -1,0 +1,156 @@
+.details-section {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+
+  border-radius: 10px;
+}
+
+.device-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  flex-grow: 1;
+  margin-right: 10px;
+}
+
+.first-sec {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 10px 0px 10px;
+}
+
+.second-sec {
+  display: flex;
+  justify-content: space-between;
+}
+
+.third-sec {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 10px 0px 10px;
+}
+
+.maintenance-btn,
+.trigger {
+  width: 214px;
+  height: 37px;
+  /* left: 324px;
+  top: 385px; */
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.25);
+  border: none;
+  border-radius: 10px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+
+  color: #ffffff;
+}
+
+.maintenance-btn {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background: #245de7;
+}
+
+.trigger {
+  background: #ef1414;
+}
+
+.device-head {
+  color: #484343 55%;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+}
+
+.device-body {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: #505050;
+}
+
+/* Log Area */
+.logArea {
+  margin-top: 25px;
+  background-color: #f7f9fb;
+}
+
+.logAreaBar {
+  display: flex;
+  justify-content: space-between;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16.5192px;
+  line-height: 19px;
+  background-color: white !important;
+}
+.log-tab {
+  display: flex;
+  justify-content: center;
+  padding: 10px 10px 2px 6px;
+  width: 150px;
+  cursor: pointer;
+}
+
+.maintenance-tab {
+  display: flex;
+  justify-content: center;
+  margin-top: 5px;
+  margin-left: 10px;
+  width: 150px;
+  padding: 10px 10px 2px 6px;
+  cursor: pointer;
+}
+.logAreaBar .active {
+  background-color: #f7f9fb;
+  color: #245de7;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.alltabs {
+  display: flex;
+  justify-content: space-around;
+}
+
+.refresh:hover {
+  cursor: pointer;
+}
+
+.mt-tbl {
+  font-family: Roboto;
+  width: 100%;
+}
+
+.mt-tbl thead {
+  font-weight: 400;
+  font-size: 14.5192px;
+  color: #5050508c;
+  background-color: #f7f9fb;
+}
+.mt-tbl thead th {
+  padding: 15px;
+}
+
+.mt-tbl tr {
+  width: 1128px;
+  height: 67px;
+  background: #f7f9fb;
+}
+.mt-tbl tr td {
+  padding: 15px;
+}
+
+.for-scrl {
+  height: 40vh;
+  overflow: auto;
+}

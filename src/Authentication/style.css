@@ -1,0 +1,79 @@
+
+
+.login .email-field,.pss-field {
+  width: 25rem;
+  height: 2.5rem;
+  margin-bottom: 1.25rem;
+  border: 1px solid #6c6969;
+  border-radius: 5px;  
+  background-color: #ededeb;
+}
+.login input {
+  border: none;
+}
+
+#password, #email {
+  width: 100%;
+  background-color: #ededeb;
+}
+
+#password:focus, #email:focus{
+  outline: none;
+}
+
+.pss-field:focus-within, .email-field:focus-within{
+  border: 0.125rem solid blue;
+}
+
+.pss-field > span:hover {
+cursor: pointer;
+}
+
+.login-btn {
+  align-self: center;
+  width: 35%;
+  border-radius: 5px;
+  background-color: blue;
+  color: white;
+  border: none;
+}
+
+.switch-signup {
+  align-self: center;
+  margin-top: 0.625rem;
+}
+
+/* Sign Up */
+
+.signupfrom {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 80%;
+}
+
+.signupfrom div {
+  margin: 0.625rem;
+}
+
+.signUp-btn {
+  width: 25%;
+  padding: 0px 10px 0px 10px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  background-color: blue;
+}
+
+.signUp-btn span {
+  text-align: center;
+}
+
+
+.name-company > input {
+  border: 1px solid #6c6969;
+  border-radius: 5px;
+  width: 250px;
+  text-align: center;
+}
+

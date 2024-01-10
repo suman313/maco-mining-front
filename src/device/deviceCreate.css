@@ -1,0 +1,50 @@
+.canvas-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  min-height: 70vh;
+}
+
+.vehicle-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 150px;
+}
+
+.fst-col {
+  display: flex;
+  justify-content: space-between;
+}
+
+.fst-col input {
+  width: 90%;
+}
+
+.device-details {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  row-gap: 25px;
+  column-gap: 5px;
+}
+.device-submit-btn {
+  align-self: center;
+  padding: 0.5rem 2rem 0.5rem 2rem;
+  border: none;
+  background: #245de7;
+  color: azure;
+  box-shadow: 0px 0px 5.22222px rgba(0, 0, 0, 0.25);
+  border-radius: 10.4444px;
+}
+.device-submit-btn-disable {
+  align-self: center;
+  padding: 0.5rem 2rem 0.5rem 2rem;
+  border: none;
+  background-color: grey;
+  color: white;
+  border-radius: 10.4444px;
+  cursor: not-allowed;
+}
+.device-details div input {
+  width: 100%;
+}

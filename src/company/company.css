@@ -1,0 +1,111 @@
+.leftSideForNavbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 80%;
+  bottom: 0;
+  background-color: #1f1f1f;
+  color: #d1d1da;
+}
+.navactive {
+  background-color: #585858;
+}
+
+.elementOfNavbar:hover {
+  background-color: #58585863;
+}
+
+.elementOfNavbar {
+  margin: 10%;
+  padding: 10%;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 120%;
+  cursor: pointer;
+}
+
+.rightSideForContent {
+  position: relative;
+  left: 18%;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  width: 80%;
+}
+
+.card-round {
+  margin: 2% 5% 2% 5%;
+  width: 90%;
+  box-shadow: 2px 3px 5px 0 #d1d1da;
+  border-radius: 5px;
+  min-height: 52px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.card-bgcolor-blue {
+  background-color: #cafff6;
+}
+
+.card_button {
+  background-color: #ffa800;
+  padding: 10px 30px;
+  border-radius: 9px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0px 0px 8px 0 rgb(255 168 0 / 72%);
+  border: none;
+  cursor: pointer;
+}
+
+.card_button:hover {
+  color: white;
+  padding: 10px 30px;
+  border-radius: 9px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  box-shadow: inset 0px 0px 8px 0 rgb(44 32 8 / 72%);
+}
+
+.log {
+  position: absolute;
+  top: 10%;
+  bottom: 10%;
+  left: 10%;
+  right: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: stretch;
+}
+
+.maplog {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-evenly;
+  background-color: #43a2f6;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.availableDeviceSide {
+}
+
+.createDeviceSide {
+}
+
+.company-logout {
+  position: absolute;
+  width: 100px;
+  margin-left: 2%;
+  margin-top: 95vh;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-around;
+  color: #245de7;
+}

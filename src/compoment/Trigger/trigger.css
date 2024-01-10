@@ -1,0 +1,52 @@
+.modal {
+    width: 44.813rem !important;
+    margin-left: 10% !important;
+    border: none;
+    border-radius: 20px;
+    box-shadow: none;
+    z-index: 7;
+}
+.modal-content {
+    position:relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.modal-title {
+    color: rgba(36, 93, 231, 1);
+    font-family: Roboto;
+    font-size: 30px;
+}
+
+.modal-desc input {
+    text-align: center;
+}
+
+.primary-button {
+    background: rgba(255, 20, 20, 1);
+    border: none;
+    border-radius: 20px;
+    color:rgba(255, 255, 255, 1);
+    padding: 5px 15px 5px 15px;
+    font-size: 12px;
+}
+
+.secondary-button {
+    position: absolute;
+    margin-top: 1%;
+    margin-left: 80%;
+    cursor: pointer;
+}
+
+.trigger {
+    background: #ef1414;
+  }
+
+.for-blur {
+    position:absolute;
+    inset: -20%;
+    background:  rgba(222, 232, 255, .75);
+    z-index: 6;
+}

@@ -1,0 +1,64 @@
+/* status design */
+.active-btn {
+    width: 150px;
+    height: 40px;
+    border-radius: 9px;
+    background-color: rgba(16, 204, 12, 0.26);
+    color:#04AF00;
+    border: 2px solid #04AF00;
+    
+}
+
+/* Fire design */
+.fire-active-btn {
+    width: 150px;
+    height: 40px;
+    border-radius: 9px;
+    background-color: rgba(255, 66, 6, 0.92);
+    color:rgba(255, 230, 0, 1);
+    border: none;
+}
+
+/* N2 Release */
+.n2-active-btn {
+    width: 150px;
+    height: 40px;
+    border-radius: 9px;
+    background-color: rgba(17, 0, 209, 0.85);
+    color:white;
+    border: none;
+}
+
+/* Manual dischared */
+.md-active-btn {
+    width: 150px;
+    height: 40px;
+    border-radius: 9px;
+    background: rgba(123, 59, 0, 0.85);
+    color:white;
+    border: 2px solid rgba(123, 59, 0, 0.85);
+}
+
+/* Release Fault */
+
+.rfault-active-btn {
+    width: 150px;
+    height: 40px;
+    border-radius: 9px;
+    background: rgba(173, 0, 255, 0.85);
+    color:white;
+    border: 2px solid rgba(173, 0, 255, 0.85);
+}
+
+.inactive-btn, .fire-inactive-btn, .n2-inactive-btn, .md-inactive-btn, .rfault-inactive-btn{
+    width: 150px;
+    height: 40px;
+    border-radius: 9px;
+    background-color: rgba(211, 211, 211, 0.26);
+    color:rgba(154, 154, 154, 1);
+    border: 2px solid rgba(154, 154, 154, 1);
+}
+
+.manual-discharged {
+    font-size: 12px;
+}

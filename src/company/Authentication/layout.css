@@ -1,0 +1,42 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  margin: 5px 0px 5px 5px;
+}
+
+.auth-aside {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  min-height: 100vh;
+  background: #245de7;
+  border-radius: 17px;
+}
+
+.auth-img {
+  margin: 5px;
+}
+
+.logo-img {
+  position: absolute;
+  margin-top: 5px;
+  margin-left: 88%;
+}
+
+.auth-main {
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+main > div {
+  margin: 15px;
+}
+
+main > div img {
+  margin: 2px;
+}

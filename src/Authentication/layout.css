@@ -1,0 +1,117 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px;
+  padding: 0px;
+  min-width: 100% !important;
+}
+
+.auth-aside {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  min-height: 100vh;
+  width: 34%;
+  background: #245de7;
+  border-radius: 17px;
+}
+
+.auth-img {
+  /* for chrome and safari */
+  -webkit-animation-duration: 2s;
+  -webkit-animation-name: slidein;
+
+  /* standard duration */
+  animation-duration: 2s;
+  animation-name: slidein;
+  /* margin: 5px; */
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    opacity: 0;
+  }
+
+  to {
+    margin-left: 0%;
+    opacity: 1;
+  }
+}
+
+.login-text1 {
+  width: 80%;
+  font-family: 'Roboto', sans-serif;
+  margin-bottom: 0px;
+}
+
+.login-text1,
+.login-text2 {
+  /* for chrome and safari */
+  -webkit-animation-duration: 2s;
+  -webkit-animation-name: slideText;
+
+  /* standard duration */
+  animation-duration: 2s;
+  animation-name: slideText;
+}
+
+@keyframes slideText {
+  from {
+    margin-right: 100%;
+    opacity: 0;
+  }
+
+  to {
+    margin-right: 0%;
+    opacity: 1;
+  }
+}
+
+.login-text2 {}
+
+.logo-img {
+  position: absolute;
+  margin-left: 88%;
+  /* for chrome and safari */
+  -webkit-animation-duration: 2s;
+  -webkit-animation-name: slideLogo;
+
+  /* standard duration */
+  animation-duration: 2s;
+  animation-name: slideLogo;
+  margin-top: 0.313rem;
+
+}
+
+@keyframes slideLogo {
+  from {
+    margin-left: 50%;
+    opacity: 0;
+  }
+
+  to {
+    margin-left: 88%;
+    opacity: 1;
+  }
+}
+
+
+.auth-main {
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 1.563rem;
+}
+
+main>div {
+  margin: 0.938rem;
+}
+
+main>div img {
+  margin: 0.125rem;
+}
